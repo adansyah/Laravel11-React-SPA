@@ -1,29 +1,26 @@
 # Laravel 11 + React SPA Project
-A simple project management application using Laravel 11 and React.
+Aplikasi manajemen proyek sederhana menggunakan Laravel 11 dan React.
 
-The project was developed for [the following](https://youtu.be/VrQRa-afCAk) YouTube tutorial.
+## Fitur
+1. Registrasi & Login
+2. Proyek CRUD dengan penyortiran, pemfilteran, dan penomoran halaman
+3. Tugas CRUD dengan penyortiran, pemfilteran, dan penomoran halaman
+4. Buat Tugas di dalam proyek
+5. Tampilkan semua tugas atau tampilkan tugas untuk proyek tertentu
+6. Tetapkan pengguna ke tugas
+7. Lihat Tugas yang ditugaskan kepada saya
+8. Tampilkan dasbor dengan informasi
 
-## Features
-1. Registration & Login
-2. Projects CRUD with sorting, filtering and pagination
-3. Tasks CRUD with sorting, filtering and pagination
-4. Create Tasks inside project
-5. Show all tasks or show tasks for a specific project
-6. Assign users to tasks
-7. View Tasks assigned to me
-8. Show dashboard with overview information
+## Langkah Instalasi
+1. Clone Projectnya atau download via zip
+2. Navigasi ke direktori root proyek menggunakan termina
+3. buat di terminal `.env` file - `cp .env.example .env`
+4. jalankan `composer install` atau `composer update`
+5. jalankan `npm install`
+6. atur aplikasi key nya - `php artisan key:generate --ansi`
+7. jalankan - `php artisan migrate --seed`
+8. jalakan server vite - `npm run dev`
+9. jalankaan server laravel - `php artisan serve`
 
-## Installation
-1. Clone the project
-2. Navigate to the project's root directory using terminal
-3. Create `.env` file - `cp .env.example .env`
-4. Execute `composer install`
-5. Execute `npm install`
-6. Set application key - `php artisan key:generate --ansi`
-7. Execute migrations and seed data - `php artisan migrate --seed`
-8. Start vite server - `npm run dev`
-9. Start Artisan server - `php artisan serve`
 
-## Demo
-Coming soon...
 
